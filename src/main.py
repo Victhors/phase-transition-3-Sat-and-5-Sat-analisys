@@ -19,7 +19,7 @@ def main():
 
         # Parâmetros para a análise
         n_values_3sat = [50, 100, 150, 200] # numero de instancias por clausula no 3-SAT
-        n_values_5sat = [10, 20, 30, 40] # numero de instancias por clausula no 5-SAT
+        n_values_5sat = [20, 30, 40, 50] # numero de instancias por clausula no 5-SAT
         k_3sat = 3 # numero de literais por clausula no 3-SAT
         k_5sat = 5 # numero de literais por clausula no 5-SAT
         alpha_range_3sat = [i * 0.1 for i in range(10, 101)]  # α de 1 a 10
